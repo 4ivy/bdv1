@@ -1,0 +1,76 @@
+/**
+ * @name ASUS TUF Gaming Night
+ * @author WayMoXXyOnSky
+ * @version 1.1.0
+ * @description Тема в стиле ASUS TUF Gaming для Better Discord
+ * @source https://github.com/4ivy/bd
+*/
+
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+
+/* Variables */
+:root {
+    --avatar-size: 32px;
+    --background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/6f3474113991421.6033266828213.gif'); /* ASUS TUF Gaming background */
+    --home-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/e6cd05113991421.603326682a4f0.gif'); /* ASUS TUF Gaming logo */
+    --background-solid: rgba(28, 30, 38, 0.5);
+    --background-solid-dark: rgba(16, 18, 24, 0.5);
+    --background-solid-darker: rgba(12, 14, 18, 0.5);
+    --accent: 255, 148, 0; /* TUF Gaming Orange */
+    --accent-alt: 255, 255, 255; /* White */
+    --gradient: linear-gradient(to right, rgba(var(--accent), 0.5), rgba(var(--accent-alt), 0.5));
+}
+
+/* Background */
+body.theme-dark {
+    background-image: var(--background-image);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Home Icon */
+.homeIcon-tEMBK1 {
+    background-image: var(--home-image) !important;
+    background-size: cover !important;
+}
+
+/* Container */
+.container-1r6BK3 {
+    background-color: var(--background-solid);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Header */
+.header-1GcazI {
+    color: rgba(var(--accent-alt), 1);
+    border-bottom: 1px solid var(--gradient);
+}
+
+/* Title */
+.title-3sZWYQ {
+    color: rgba(var(--accent), 1);
+}
+
+/* Button */
+.button-2t3of8 {
+    background-color: rgba(var(--accent), 1);
+    color: rgba(var(--accent-alt), 1);
+}
+
+    .button-2t3of8:hover {
+        background-color: rgba(var(--accent-alt), 1);
+        color: rgba(var(--accent), 1);
+    }
+
+/* Settings */
+.settings-separator-2lZFgv {
+    background-image: var(--gradient);
+}
+
+/* Hover Text */
+.standardSidebarView-3JxU_9 .sidebar-2K8pFh .containerDefault-1bbItS:hover .label-3YjnbQ,
+.standardSidebarView-3JxU_9 .sidebar-2K8pFh .containerDefault-1bbItS:hover .name-3G1f3J {
+    color: rgba(var(--accent), 1);
+}
