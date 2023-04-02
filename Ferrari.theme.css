@@ -1,63 +1,64 @@
 /**
- * @name Syntwave
+ * @name Ferrari Night
  * @author WayMoXXyOnSky
- * @version 1.5.0
-  * @description Ferrari theme Better Discord
+ * @version 1.6.0
+ * @description Тема в стиле Ferrari для Better Discord
  * @source https://github.com/4ivy/bd
 */
 
 @import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
 
+
 /* Variables */
 :root {
     --avatar-size: 32px;
-    --background-image: url('https://i.gifer.com/fxk4.gif'); 
-    --home-image: url('https://rare-gallery.com/thumbs/985529-synthwave-OutRun-cassette-music-space-nostalgia.png'); 
-    --background-solid: url('https://i0.wp.com/piziadas.com/wp-content/uploads/2013/06/logo_ferrari_animado.gif?resize=300%2C300'); 
-    --background-solid-dark: url('https://rare-gallery.com/thumbs/985529-synthwave-OutRun-cassette-music-space-nostalgia.png');
-    --background-solid-darker: #0c0e12;
-    --accent: 255, 56, 56; /* Ferrari Red */
-    --accent-alt: 255, 255, 255; /* White */
+    --background-image: url('https://i.redd.it/wj1uz8vooky41.jpg');
+    --home-image: url('https://i0.wp.com/piziadas.com/wp-content/uploads/2013/06/logo_ferrari_animado.gif?resize=300%2C300');
+    --background-solid: rgba(28, 30, 38, 0.1);
+    --background-solid-dark: rgba(16, 18, 24, 0.4);
+    --background-solid-darker: rgba(12, 14, 18, 0.01);
+    --accent: rgba(37, 172, 232,0.01);
+    --accent-alt: rgba(29, 101, 134,0.01);
 }
 
-/* Background */
+/* Background Image */
 body.theme-dark {
-    background-image: url('https://rare-gallery.com/thumbs/985529-synthwave-OutRun-cassette-music-space-nostalgia.png');
+    background-image: var(--background-image);
     background-size: cover;
     background-attachment: fixed;
 }
 
-/* Home Icon */
+/* Home Button Image */
 .homeIcon-tEMBK1 {
     background-image: var(--home-image) !important;
     background-size: cover !important;
 }
 
-/* Container */
-.container-1r6BK3 {
-    background-color: var(--background-solid);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+/* Chat container */
+.chat-3bRxxu,
+.theme-dark .chat-3bRxxu {
+    background-color: rgba(28, 30, 38, 0.1) !important; /* Уменьшенная прозрачность */
 }
 
-/* Header */
-.header-1GcazI {
-    color: var(--text-normal);
-    border-bottom: 1px solid var(--background-solid-dark);
+/* Chat message group */
+.messageGroupWrapper-o-Zw7G,
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: rgba(28, 30, 38, 0.1) !important; /* Уменьшенная прозрачность */
 }
 
-/* Title */
-.title-3sZWYQ {
-    color: var(--text-normal);
+/* Chat messages */
+.messagesWrapper-1sRNjr,
+.theme-dark .messagesWrapper-1sRNjr {
+    background-color: rgba(28, 30, 38, 0.1) !important; /* Уменьшенная прозрачность */
 }
 
-/* Button */
-.button-2t3of8 {
-    background-color: rgba(var(--accent), 1);
-    color: var(--text-normal);
+/* Scrollbar */
+.scrollbar-3dvm_9, .scrollbar-3dvm_9 > div {
+    background-color: rgba(16, 18, 24, 0.1) !important; /* Уменьшенная прозрачность */
 }
 
-    .button-2t3of8:hover {
-        background-color: rgba(var(--accent-alt), 1);
-    }
+/* Settings menu background */
+.content-yTz4x3 {
+    background-color: rgba(16, 18, 24, 0.1);
+}
+
