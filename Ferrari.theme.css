@@ -11,7 +11,7 @@
 /* Variables */
 :root {
     --avatar-size: 32px;
-    --background-image: url(https://i.gifer.com/fxk4.gif'); /* Ferrari drawing */
+    --background-image: url('https://i.gifer.com/fxk4.gif'); /* Ferrari drawing */
     --home-image: url('https://i0.wp.com/piziadas.com/wp-content/uploads/2013/06/logo_ferrari_animado.gif?resize=300%2C300'); /* Ferrari gif */
     --background-solid: #1c1e26;
     --background-solid-dark: #101218;
