@@ -4,20 +4,20 @@
  * @version 1.1.0
  * @description Тема в стиле ASUS TUF Gaming для Better Discord
  * @source https://github.com/4ivy/bd
-*/
+ */
 
-@import url('https://github.com/4ivy/bdv1/edit/main/TUF.theme.css');
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
 
 /* Variables */
 :root {
     --avatar-size: 32px;
-    --background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/6f3474113991421.6033266828213.gif'); /* ASUS TUF Gaming background */
-    --home-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/e6cd05113991421.603326682a4f0.gif'); /* ASUS TUF Gaming logo */
+    --background-image: url('https://github.com/4ivy/bdv1/blob/main/6f3474113991421.6033266828213.gif?raw=true'); /* ASUS TUF Gaming background */
+    --home-image: url('https://github.com/4ivy/bdv1/blob/main/e6cd05113991421.603326682a4f0.gif?raw=true'); /* ASUS TUF Gaming logo */
     --background-solid: rgba(28, 30, 38, 0.1);
     --background-solid-dark: rgba(16, 18, 24, 0.2);
     --background-solid-darker: rgba(12, 14, 18, 0.2);
     --accent: 255, 148, 0; /* TUF Gaming Orange */
-    --accent-alt: 255, 148, 0; 
+    --accent-alt: 255, 148, 0;
     --gradient: linear-gradient(to right, rgba(var(--accent), 0.5), rgba(var(--accent-alt), 0.5));
 }
 
